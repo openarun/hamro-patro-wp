@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: hamro, patro, nepali, calendar, nepali patro, hamro patro, nepali calendar, nepal
 Requires at least: 4.0
 Requires PHP: 5.2.4
-Tested up to: 5.3.2
+Tested up to: 5.4.1
 Stable tag: 1.1.0
 License: GPLv2 or later
 
