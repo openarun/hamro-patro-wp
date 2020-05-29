@@ -7,7 +7,7 @@ class HamroPatro_DateConverter_Widget extends WP_Widget {
     {
         parent::__construct(
             'hamropatro_date_converter_widget',
-            __('Hamro Patro Date Converter', 'text_domain'),
+            __('Hamro Patro Date Converter', 'hamropatro'),
             array('customize_selective_refresh' => true)
         );
     }
@@ -26,7 +26,7 @@ class HamroPatro_DateConverter_Widget extends WP_Widget {
 
 		<?php // Widget Title ?>
 		<p>
-			<label for="<?php echo esc_attr($this->get_field_id('title')); ?>"><?php _e('Title', 'text_domain');?></label>
+			<label for="<?php echo esc_attr($this->get_field_id('title')); ?>"><?php _e('Title', 'hamropatro');?></label>
 			<input class="widefat" id="<?php echo esc_attr($this->get_field_id('title')); ?>" name="<?php echo esc_attr($this->get_field_name('title')); ?>" type="text" value="<?php echo esc_attr($title); ?>" />
 		</p>
 	<?php }

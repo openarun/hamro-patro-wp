@@ -7,7 +7,7 @@ class HamroPatro_Calendar_Widget extends WP_Widget {
 	public function __construct() {
 		parent::__construct(
 			'hamropatro_calendar_widget',
-			__( 'Hamro Patro Calendar', 'text_domain' ),
+			__( 'Hamro Patro Calendar', 'hamropatro' ),
 			array('customize_selective_refresh' => true,)
 		);
 	}
@@ -26,20 +26,20 @@ class HamroPatro_Calendar_Widget extends WP_Widget {
 
 		<?php // Widget Title ?>
 		<p>
-			<label for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"><?php _e( 'Title', 'text_domain' ); ?></label>
+			<label for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"><?php _e( 'Title', 'hamropatro' ); ?></label>
 			<input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'title' ) ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>" />
 		</p>
 
 		<?php // Dropdown ?>
 		<p>
-			<label for="<?php echo $this->get_field_id( 'select' ); ?>"><?php _e( 'Size', 'text_domain' ); ?></label>
+			<label for="<?php echo $this->get_field_id( 'select' ); ?>"><?php _e( 'Size', 'hamropatro' ); ?></label>
 			<select name="<?php echo $this->get_field_name( 'select' ); ?>" id="<?php echo $this->get_field_id( 'select' ); ?>" class="widefat">
 			<?php
 			// Your options array
 			$options = array(
-				'large' => __( 'Large', 'text_domain' ),
-				'medium' => __( 'Medium', 'text_domain' ),
-				'small' => __( 'Small', 'text_domain' ),
+				'large' => __( 'Large', 'hamropatro' ),
+				'medium' => __( 'Medium', 'hamropatro' ),
+				'small' => __( 'Small', 'hamropatro' ),
 			);
 
 			// Loop through options and add each one to the select dropdown
