@@ -10,7 +10,7 @@ Version: 1.1
 Author: Arun Kumar Pariyar
 Author URI: https://profiles.wordpress.org/arunpyasi/
 License: GPLv2 or later
-Text Domain: hamropatro
+Text Domain: hamro-nepali-patro-calendar
 */
 
 include('calendar.php');
