@@ -1,14 +1,12 @@
 === Hamro Patro ===
-Contributors: arunpyasi, anantamishra
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5CT6Z3QY6BAHL&source=url
+Contributors: [openarun](https://github.com/openarun), [anantamishra](https://github.com/anantamishra)
+Donate: https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=5CT6Z3QY6BAHL&source=url
 Tags: hamro, patro, nepali, calendar, nepali patro, hamro patro, nepali calendar, nepal
 Requires at least: 4.0
 Requires PHP: 5.2.4
 Tested up to: 5.5
 Stable tag: 1.1.0
 License: GPLv2 or later
-
-Hamro Nepali Patro Calendar is an unofficial WordPress plugin which consists of Nepali Calendar and Date Converter Widgets.
 
 == Description ==
 
