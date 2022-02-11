@@ -3,7 +3,7 @@
 Plugin Name: Hamro Nepali Patro Calendar
 Plugin URI: https://github.com/arunpyasi/hamro-patro-wp
 Description: Hamro Nepali Patro Calendar WordPress is an unofficial plugin which consits of Nepali Calendar Widgets.
-Version: 1.3
+Version: 1.4
 Author: Arun Kumar Pariyar
 Author URI: https://profiles.wordpress.org/arunpyasi/
 License: GPLv2 or later
